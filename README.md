@@ -389,7 +389,7 @@ Las contribuciones son bienvenidas. Por favor:
 Este proyecto está bajo la licencia MIT. Ver [LICENSE](LICENSE) para detalles.
 
 ## 👤 Autor
-**Jerónimo Posada Gil**
+Jerónimo Posada Gil
 **Desarrollado como proyecto de Data Science**
 
 ## 📞 Soporte
