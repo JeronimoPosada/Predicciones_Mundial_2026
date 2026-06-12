@@ -1,0 +1,26 @@
+# ===================================================
+# Predicciones Mundial 2026 - Dependencias
+# ===================================================
+# Para instalar: pip install -r requirements.txt
+# Tip: Siempre usa un entorno virtual (venv)
+#   python -m venv venv
+#   source venv/bin/activate   (Linux/Mac)
+#   venv\Scripts\activate      (Windows)
+# ===================================================
+
+# --- Core: Manejo de datos ---
+pandas>=2.1.0           # DataFrames - la herramienta #1 para datos
+numpy>=1.24.0           # Cálculos numéricos y arrays
+
+# --- Estadística y Modelo ---
+scipy>=1.11.0           # Distribución de Poisson y optimización
+
+# --- API y Red ---
+requests>=2.31.0        # Consumir APIs REST (football-data.org)
+
+# --- Configuración ---
+python-dotenv>=1.0.0    # Leer variables de entorno desde .env
+
+# --- Visualización (opcional, para notebooks) ---
+matplotlib>=3.8.0       # Gráficas básicas
+seaborn>=0.13.0         # Gráficas estadísticas bonitas

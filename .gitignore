@@ -1,2 +1,37 @@
+# ===================================================
+# .gitignore - Archivos que Git debe ignorar
+# ===================================================
+
+# Variables de entorno (contiene API keys - NUNCA subir)
 .env
 
+# Entorno virtual de Python
+venv/
+.venv/
+env/
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Datos descargados (pueden ser muy pesados)
+data/raw/*.json
+data/raw/*.csv
+data/processed/*.csv
+data/processed/*.json
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
