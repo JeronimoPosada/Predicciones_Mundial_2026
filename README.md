@@ -390,6 +390,7 @@ Este proyecto está bajo la licencia MIT. Ver [LICENSE](LICENSE) para detalles.
 
 ## 👤 Autor
 Jerónimo Posada Gil
+
 **Desarrollado como proyecto de Data Science**
 
 ## 📞 Soporte
